@@ -10,7 +10,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 200px;
 }
 .nav-links{
     padding: 2% 6%;
@@ -19,12 +19,12 @@ nav img{
 }
 .nav-links ul{
     
-    list-style-type: none;
+    
 }
 
 .nav-links ul li{
 
-    list-style: none;
+    list-style-type: none;
     display: block;
     padding: 4px 12px;
     position: relative;
@@ -34,7 +34,17 @@ nav img{
     text-decoration: none;
     font-size: 20px;
 }
+/* Change the link color on hover */
+.nav-links ul li a:hover{
+    color: #F6543C;
+    text-decoration: none;
+    font-size: 20px;
+}
 #home a{
     color: #438DFF;
-    
+
+}
+#home a:hover{
+    color: #F6543C;
+
 }

@@ -1,9 +1,16 @@
 *{
     box-sizing: border-box;
 }
+body {
+  background-color: #fbb217;  
+}
+header {
+  background-color: #40CD48;
+}
 .header{
   justify-content: flex-end;  
 }
+/* Navigation */
 nav{
     display: flex;
     justify-content: space-between;
@@ -18,7 +25,6 @@ nav img{
     text-align: right;
 }
 .nav-links ul li{
-
     list-style-type: none;
     display: block;
     padding: 4px 12px;
@@ -37,20 +43,34 @@ nav img{
 }
 #home a{
     color: #438DFF;
-
 }
 #home a:hover{
     color: #F6543C;
-    
 }
-/* span {
-  display: block
-} */
 .about{
 display: flex;
 align-items: center;
 height: 100%;
-
+background-color: #F6543C;
+}
+.work{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: #438DFF;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+footer{
+      display: flex;
+      flex: 100%;
+      width: 100%;
+      justify-content: space-evenly;
+      background-color: #40CD48;
+      font-size: 200%;
 }
   /* Spacing after the red line */
 .me{
@@ -63,17 +83,18 @@ height: 100%;
   align-items: flex-end;
   font-size: 40px;
   min-width: 200px;
-  border-right: 5px solid #F6543C;
+  border-right: 5px solid #CC3FC5;
   padding: 20px;
-  
-
 }
 /* Contact Section */
 .contact{
   display: flex;
   flex: 100%;
   justify-content: space-evenly;
-  
+}
+.contact li {
+  display: flex;
+  flex: 100%;
 }
 .contact ul{
   display: flex;
@@ -85,70 +106,75 @@ height: 100%;
   padding-left: 20px;
 }
 .contact ul li a{
-  color: #CC3FC5;
+  color: black;
   text-decoration: none;
   font-size: 20px;
 }
 /* Work Section */
-/*  */
 .card-group{
   display: flex;
   /* flex: 100%; */
   justify-content: space-evenly;
   padding: 20px;
-
 }
 .card {
   box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   padding:20px;
   margin-right: 20px;
+  min-width: 24%;
 }
-
 .card:hover {
   box-shadow: 0 0 16px 0 rgba(0,0,0,0.2);
   padding: 20px;
   margin-right: 20px;
 }
-
 .container {
   padding: 2px 16px;
 }
-@media only screen and (max-width: 400px) {
-  .card a img{
-    /* display: none; */
-    width: 100px;
-  }
-
-.card p{
-  color: red;
+@media only screen and (max-width: 768px){
+  .card-group{
+  flex-wrap: wrap;
+}
+.about-me{
+  display: flex;
+  flex: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 30px;
+  min-width: 125px;
+  max-width: 100px;
+  border-right: 5px solid #F6543C;
+  padding: 15px;
 }
 .contact{
   display: flex;
-  flex: 100%;
-  justify-content: space-evenly;
-  
+  flex: content
 }
+footer{
+  display: flex;
+  flex: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #40CD48;
+  font-size: 150%;
+}
+.me{
+    font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .card a img{
+    width: 100px;
+  }
 .card-group{
   flex-wrap: wrap;
 }
-
-  .contact{
-
-    /* display: flex;
-    flex: 100%;
-    justify-content: space-evenly; */
-
-    flex-direction: column;
+  .about-me {
+    size: 20px;
   }
-}
-
-
-
-
-
-.ball{
-    position: absolute;
-  border-radius: 100%;
-  opacity: 0.7;
+  .about {
+    size: 10%;
+  }
 }

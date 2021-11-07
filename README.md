@@ -1,12 +1,23 @@
 # Portfolio
+
 ## Description
+
 Created a portfolio site to show off my work with some real info. This was my first site.
+
 ## Usage
-  ![Nicholas Golston website](assets/images/screenshot.png)
- - [Site](https://ngolston.github.io/portfolio/)
- - [Github](https://github.com/ngolston/portfolio)
- - README.md
+
+![Nicholas Golston website](assets/images/screenshot.png)
+
+- [Site](https://ngolston.github.io/portfolio/)
+- [Github](https://github.com/ngolston/portfolio)
+- README.md
+
+## Projects
+
+- [FOMO-Calculator](https://ngolston.github.io/FOMO_Cal/)
+
 ## Credits
+
 - Dillan Mansor
 - Davis Ransom
 - Jeffrey Young

@@ -15,6 +15,9 @@ Created a portfolio site to show off my work with some real info. This was my fi
 ## Projects
 
 - [FOMO-Calculator](https://ngolston.github.io/FOMO_Cal/)
+- [Password Generator](https://ngolston.github.io/Password-Generator/)
+- [Code Quiz](https://ngolston.github.io/Code-Quiz/)
+- [Day Planner](https://ngolston.github.io/day-planner/)
 
 ## Credits
 
